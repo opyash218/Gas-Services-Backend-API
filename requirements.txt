@@ -1,0 +1,6 @@
+Django>=4.0,<5.0
+djangorestframework>=3.14.0
+sqlite3  # If using SQLite, remove this if using PostgreSQL or MySQL
+django-cors-headers>=4.2.0  # For handling CORS in case of frontend integration
+djangorestframework-simplejwt>=5.2.2  # For JWT authentication if needed
+python-dotenv>=1.0.0  # For managing environment variables
